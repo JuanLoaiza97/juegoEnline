@@ -1,0 +1,91 @@
+.contenido {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+}
+
+.contenido p{
+    font-size: 2.5rem;
+    text-align: center;
+    color: azure;
+    font-weight: 900;
+}
+
+
+
+.button4, .button6{ 
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    transition: 150ms;
+    margin-top: 35px;
+    
+    
+}
+
+
+
+.button4:focus {
+    outline: none;
+}
+
+.button4:hover{
+    transform: translate(0, -5px);
+}
+
+.button6:focus {
+    outline: none;
+}
+
+.button6:hover{
+    transform: translate(0, -5px);
+}
+
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    opacity: 0.1;
+    mix-blend-mode: overlay;
+}

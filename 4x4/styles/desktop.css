@@ -1,0 +1,7 @@
+.header , .footer {
+    height: 60px;
+}
+
+.section{
+    height: calc(100vh - 120px);
+}
